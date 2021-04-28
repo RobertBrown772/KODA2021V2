@@ -1,0 +1,6 @@
+{
+    "editor.fontSize": 11,
+    "editor.tabSize": 2,
+    "workbench.tree.renderIndentGuides": "always",
+    "git.ignoreLimitWarning": true
+}

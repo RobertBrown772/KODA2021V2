@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<h2>
+  {{ title }}
+</h2>
+<img src="{{ featuredImage | url }}" alt="{{ featuredImage }}">
+<span>
+  {{ postDate }}
+</span>
+<p>
+  {{ content | safe}}
+</p>

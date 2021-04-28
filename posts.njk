@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+title: Post List
+permalink: /blog/
+---
+
+{% set postsList = collections.posts %}
+
+{% include "postsList.liquid" %}
